@@ -1,0 +1,13 @@
+{
+    "specversion": "v1-alpha", 
+    "name": "K8PetStore AtomicApp",
+    "id": "k8petstore-atomicapp",
+    "appversion": "0.0.1",
+    "description": "This is a real application, way better than crappy wordpress !",
+    "graph": [
+        "redismaster",
+        "redisslave",
+        "fectrl",
+        "bps-load-gen"
+    ]
+}
